@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://2ujb63ja2i7v"]
+[gd_scene load_steps=2 format=3 uid="uid://difxqxtd6h3ip"]
 
-[ext_resource type="Script" path="res://scripts/world.gd" id="1_pjtv1"]
+[ext_resource type="Script" path="res://scripts/Surface.gd" id="1_jqq34"]
 
-[node name="World" type="Node"]
-script = ExtResource("1_pjtv1")
+[node name="World" type="Node2D"]
+
+[node name="Surface" type="Line2D" parent="."]
+default_color = Color(0.0823529, 0.0823529, 0.0156863, 1)
+script = ExtResource("1_jqq34")
